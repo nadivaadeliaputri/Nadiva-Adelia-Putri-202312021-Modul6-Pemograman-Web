@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffeaf6;
+    color: #333;
+    padding: 30px;
+}
+
+h1 {
+    color: #d63384;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #f3cce2;
+}
+
+table th, table td {
+    padding: 12px;
+    border-bottom: 1px solid #f2a7c1;
+    text-align: center;
+}
+
+a.btn-tambah,
+.btn-simpan,
+.btn-kembali,
+.btn-edit,
+.btn-hapus {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.btn-tambah {
+    background: #ff85b3;
+    color: #fff;
+}
+
+.btn-simpan {
+    background: #d63384;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-kembali {
+    background: #ffc2d1;
+    color: #333;
+    text-decoration: none;
+}
+
+.btn-edit {
+    background: #ffb3d9;
+    color: #000;
+}
+
+.btn-hapus {
+    background: #ff4d6d;
+    color: white;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px #ffcde6;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 2px solid #ffa7c4;
+    border-radius: 6px;
+}
+
+img {
+    border-radius: 6px;
+    margin-top: 10px;
+}
